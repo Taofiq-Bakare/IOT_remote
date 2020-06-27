@@ -1,0 +1,11 @@
+Observations while using the CHUNGHOP_K1068E master remote control
+
+    Benchmark code = Daikin_ecoking
+    Raw data length = 135
+    Frequency = 38Khz
+
+    Code range for Daikin AC's = 740-759
+
+        At 759
+        Raw data length = 327
+
