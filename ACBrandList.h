@@ -428,7 +428,7 @@ void initCode(int Code)
         AC.Temperature[13] = new uint16_t[AC.bufferSize]{0};
         AC.Temperature[14] = new uint16_t[AC.bufferSize]{0};
         break;
-    case LG:
+    case LG: // range 600
         AC.Frequency = 38;
         AC.bufferSize = 500;
 
