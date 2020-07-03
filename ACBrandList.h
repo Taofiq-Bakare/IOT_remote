@@ -12,8 +12,8 @@
 #define Mitsubishi 9
 #define Hisense 10
 #define Sharp 11
-#define AC_012 12
-#define AC_013 13
+#define Haier 12
+#define Toshiba 13
 #define AC_014 14
 #define AC_015 15
 #define AC_016 16
