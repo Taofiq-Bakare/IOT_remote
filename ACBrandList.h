@@ -13,7 +13,11 @@
 #define Hisense 10
 #define Sharp 11
 #define Haier 12
+<<<<<<< HEAD
 #define Toshiba 13
+=======
+#define AC_013 13
+>>>>>>> HAIER
 #define AC_014 14
 #define AC_015 15
 #define AC_016 16
