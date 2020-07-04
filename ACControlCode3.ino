@@ -268,8 +268,8 @@ void setup() {
   connectionCounter = 0;
   rebootCount = 0;
 
-  //for (int i = 0; i < EEPROM_SIZE; i++) EEPROM.write(i, 0);
-  //EEPROM.commit();
+// for (int i = 0; i < EEPROM_SIZE; i++) EEPROM.write(i, 0);
+// EEPROM.commit();
  
   int ssid_Len = 0, pass_Len = 0;
   ssid_Len  = byte(EEPROM.read(0));
