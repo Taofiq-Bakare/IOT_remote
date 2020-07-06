@@ -18,7 +18,7 @@
 enum wifi_setup_stages {NONE, AC_SELECT, SELECT_COMPLETE, SCAN_START, RESCAN, SCAN_COMPLETE, SSID_ENTERED, WAIT_PASS, PASS_ENTERED, WAIT_CONNECT, LOGIN_FAILED, CONNECT_SUCCESS};
 enum wifi_setup_stages wifi_stage = NONE;
 
-String AC_number = "00";
+String AC_number = "03";
 
 #define _AM2302
 //#define _RHT03
@@ -268,8 +268,8 @@ void setup() {
   connectionCounter = 0;
   rebootCount = 0;
 
-// for (int i = 0; i < EEPROM_SIZE; i++) EEPROM.write(i, 0);
-// EEPROM.commit();
+//for (int i = 0; i < EEPROM_SIZE; i++) EEPROM.write(i, 0);
+//EEPROM.commit();
  
   int ssid_Len = 0, pass_Len = 0;
   ssid_Len  = byte(EEPROM.read(0));
