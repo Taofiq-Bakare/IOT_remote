@@ -18,7 +18,7 @@
 enum wifi_setup_stages {NONE, AC_SELECT, SELECT_COMPLETE, SCAN_START, RESCAN, SCAN_COMPLETE, SSID_ENTERED, WAIT_PASS, PASS_ENTERED, WAIT_CONNECT, LOGIN_FAILED, CONNECT_SUCCESS};
 enum wifi_setup_stages wifi_stage = NONE;
 
-String AC_number = "03";
+String AC_number = "10";
 
 #define _AM2302
 //#define _RHT03
