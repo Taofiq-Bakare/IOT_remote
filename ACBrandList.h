@@ -20,7 +20,7 @@
 #define Coolix 17
 #define Kelvinator 18
 #define Goodweather  19
-#define AC_020 20
+#define Fujitsu 20
 #define AC_021 21
 #define AC_022 22
 #define AC_023 23
@@ -122,7 +122,7 @@ String AC_brands[] = {
     "Coolix",
     "Kelvinator",
     "Goodweather",
-    "AC_020",
+    "Fujitsu",
     "AC_021",
     "AC_022",
     "AC_023",
