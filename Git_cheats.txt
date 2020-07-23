@@ -1,0 +1,9 @@
+git merge --no-ff *branch_name = creates a commit with the merge 
+git checkout -b *branch_name = create and switch to branch_name
+git origin -v = check the available remote repos
+git remote add origin url = add a new origin from github
+git push --all origin = push all branches to origin
+
+
+
+
