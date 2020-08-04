@@ -5,3 +5,5 @@
 *.xlsx
 *.xsls
 *.docx
+.vscode/arduino.json
+.vscode
